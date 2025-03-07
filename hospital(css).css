@@ -1,0 +1,59 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Color for different algorithm parts */
+.purple {
+    color: #6a1b9a;  /* Purple */
+}
+
+.blue {
+    color: #1976d2;  /* Blue */
+}
+
+.green {
+    color: #388e3c;  /* Green */
+}
+
+.red {
+    color: #d32f2f;  /* Red */
+}
+
+.yellow {
+    color: #fbc02d;  /* Yellow */
+}
+
+.gray {
+    color: #757575;  /* Gray */
+}
+
+/* Style for the code block */
+pre {
+    font-size: 18px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #333;
+    margin: 20px 0;
+}
